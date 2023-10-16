@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=OpenWeatherData Downloader
+qgisMinimumVersion=3.16
+description=Downloading Weather Data From OpenWeather API
+version=1.0
+author=Htet Arkar Soe
+email=htetarkar.env.2016@gmail.com
+
+about=This plugin will easily download the free weather data into QGIS application for any location from openweathermap.org using API KEY. Two algorithms were provided in this plugin to get the data as below list. (1)OpenWeather Data (Current): To download the current weather and air pollution data (2)OpenWeather Data (Historical): To download the historical air pollution data **Free Register at openweathermap.org and get the Free API Key.
+
+tracker=https://github.com/geohtet/OpenWeatherDataDownloaderAlgorithm/issues
+repository=https://github.com/geohtet/OpenWeatherDataDownloaderAlgorithm
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=openweather
+
+homepage=https://github.com/geohtet/OpenWeatherDataDownloaderAlgorithm
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
